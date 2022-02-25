@@ -13,10 +13,12 @@ const theme = createTheme({
   palette: {
     primary: {main: "#FFFFFF", contrastText: "#0054A5"},
     secondary: {main: "#C0F4F0", contrastText: '#FFFFFF'},
-    text: {primary: "#48D2C7 ", secondary: "#48D2C7", contrastText: '#FFFFFF'},
+    text: {primary: "#0054A5", secondary: "#0054A5", contrastText: '#FFFFFF'},
     action: {active: pink[500], hover:pink[50], selected: pink[300], contrastText: '#FFFFFF' },
     background: {default: '#0054A5 '},
-    card: {default: "F4F9F9"}
+    card: {default: "F4F9F9"},
+    body1: {primary: "#FFFFFF", contrastText: "#FFFFFF"}
+
    },
   typography: {fontFamily: ['Arial']},
 });

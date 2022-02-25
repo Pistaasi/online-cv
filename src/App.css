@@ -51,7 +51,6 @@ body {
 
 #intro {
   background-color: white;
-  border-radius: 25px;
   width: 700px;
   height: 500px;
   position: absolute;
@@ -60,6 +59,25 @@ body {
   padding: 10px; 
 }
 
+#intro_text {
+  background-color: #002a52;
+  height: 20%;
+  display:flex; 
+  flex-direction: row; 
+  justify-content: center; 
+  padding-top: 5%;
+  justify-content: space-between;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+
+#intro_text2 {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  width: 48%;
+  height: 70%
+}
 
 @keyframes App-logo-spin {
   from {
