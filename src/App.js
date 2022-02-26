@@ -34,6 +34,7 @@ function App() {
     <BrowserRouter>
       <Routes>
         <Route path="/" element={<AppBarMUI />}>
+          <Route index element={<Frontpage />} />
           <Route path="contact" element={<Test />} />
           <Route path="skills" element={<Skillspage />} />
           <Route path="front" element={<Frontpage />} />
