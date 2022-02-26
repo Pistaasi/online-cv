@@ -13,7 +13,7 @@ return (
 <AppBar position='static'>
 <Toolbar>
 
-    <Typography variant='h6'>Iida Rokka - Online CV</Typography>
+    <Typography variant='h7'>Iida Rokka - Online CV</Typography>
     <div id="navLinks">
     <Link style={{ textDecoration: 'none', color: "#0054A5"}} id="link1" to="/front">Introduction</Link>
     <Link style={{ textDecoration: 'none', color: "#0054A5"}} id="link2" to="/skills">Skills</Link>

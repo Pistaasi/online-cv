@@ -80,13 +80,15 @@ body {
 }
 
 #cv {
-  width: 700px;
-  height: 1000px;
+  background-color: #002a52;
+  width:fit-content;
+  height: fit-content;
   position: absolute;
   top: 20%;
   left:30%;
   padding: 10px; 
 }
+
 
 @keyframes App-logo-spin {
   from {
