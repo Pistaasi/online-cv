@@ -15,9 +15,9 @@ return (
 
     <Typography variant='h6'>Iida Rokka - Online CV</Typography>
     <div id="navLinks">
-    <Link style={{ textDecoration: 'none', color: "#0054A5"}} id="link1" to="/">Introduction</Link>
-    <Link style={{ textDecoration: 'none', color: "#0054A5"}} id="link2" to="/front">Skills</Link>
-    <Link style={{ textDecoration: 'none', color: "#0054A5"}} id="link3" to="/test">Contact</Link>
+    <Link style={{ textDecoration: 'none', color: "#0054A5"}} id="link1" to="/front">Introduction</Link>
+    <Link style={{ textDecoration: 'none', color: "#0054A5"}} id="link2" to="/skills">Skills</Link>
+    <Link style={{ textDecoration: 'none', color: "#0054A5"}} id="link3" to="/contact">Contact</Link>
     </div>
 
 </Toolbar>
