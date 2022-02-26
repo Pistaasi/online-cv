@@ -8,6 +8,7 @@ import AppBarMUI from "./components/AppBarMUI";
 import Frontpage from "./components/Frontpage"; 
 import Test from "./components/Test";
 import ReactDOM from "react-dom";
+import Skillspage from "./components/Skillspage";
 
 const theme = createTheme({
   palette: {
@@ -34,7 +35,7 @@ function App() {
       <Routes>
         <Route path="/" element={<AppBarMUI />}>
           <Route path="contact" element={<Test />} />
-          <Route path="skills" element={<Test />} />
+          <Route path="skills" element={<Skillspage />} />
           <Route path="front" element={<Frontpage />} />
         </Route>
       </Routes>
